@@ -1,0 +1,73 @@
+.shift{
+	
+	float: left;
+	padding:0px 30px;
+	position: fixed;
+	/*background: grey;*/
+}
+
+nav li{
+	
+	display: inline;
+	list-style: none;
+	float: right;
+	padding: 5px;
+	padding-top: 30px; 
+	/*background: yellow;*/
+}
+ul a{
+	color: black;
+	text-decoration: none;
+}
+
+.block{
+	display: block;
+	background: #CFCFCF;
+	height:140px;
+}
+.block li{
+	display: inline;
+	
+}
+.block ul{
+	text-decoration: none;
+	padding :0 230px;
+	float: right;
+}
+.ef{
+	/*background: red;
+*/	width: 450px;
+	padding-top: 30px;
+}
+.bf{
+	/*background: green;*/
+	width: 450px;
+	padding-top: 30px;
+}
+.hf{
+	/*background: yellow;*/
+	width: 450px;
+	padding-top: 30px;
+}
+.dark{
+	height: 100px;
+	box-sizing: border-box;
+	background: grey;
+}
+
+.gfont{
+	font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    margin-top: 500px;
+    padding: 20px 500px;
+    background: #95B9C7;
+    
+}
+.icon li{
+	display: inline;
+	float: right;
+}
+.icon i{
+	font-size: 50px;
+	padding-top: 30px;
+}
