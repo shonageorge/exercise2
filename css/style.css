@@ -1,0 +1,169 @@
+body{
+	background: black;
+}
+
+.logo{
+	width:200px;
+	height: 120px;
+	float: left;
+	padding-left:10px;
+}
+
+header{
+	background: white;
+	/*display: block;
+	position: fixed;*/
+}
+
+.right{
+	float: right;
+}
+
+nav ul{
+	padding-top: 50px;
+}
+
+nav li{
+	display: inline;	
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Merriweather', serif;
+}
+
+.hero{
+	width: 100%;
+	height: 620px;
+	margin-top: -15px;
+}
+
+.gfont{
+	font-family : 'Tangerine', cursive;
+	background:#01122B;
+	margin-top: 5px;
+	height: 200px;
+}
+
+.size{
+	font-size: 80px;
+	padding:30px 300px;
+	color: white;
+}
+
+.col1,.col2,.col3{
+	padding-top: 30px;
+	width: 350px;
+	color: black;
+	padding-left: 80px;	
+}
+
+.fashion{
+	padding:20px 0 0 75px;
+}
+	
+.color{
+	background: #DCDCDC;
+	margin-top: 5px;
+}
+
+.ftip1,.btip{
+	background: #455166;
+}
+
+.ftip1{
+	margin-top: 550px;
+}
+
+.pfont{
+	float:right;
+	width: 240px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+    line-height: 23px;
+    font-size: 16px;	
+}
+
+.btipcol1 p,h1{
+	color: black;
+}
+	
+.r2,.r3{
+	padding :20px 20px 0 0;
+}
+
+.tip{
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	padding-left: 8px;
+	font-family: vintage;
+}
+
+.ti{
+	text-decoration:none;
+	color: black;
+}
+
+.ftip2 img{
+	width:200px;
+	height: 300px;
+	float: left;
+	padding-right: 20px;
+}
+
+.font{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.para,.tip{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+	line-height: 25px;
+	font-size: 17px;
+} 
+
+.para{
+	width:320px;
+}  
+	
+.icon li{
+	display: inline;
+}
+
+.icon i{
+	font-size: 30px;
+	color: white;
+	float: right;
+	margin: 0 50px 100px 0 ;
+}
+
+.itext{
+    color: white;
+    font-size: 25px;
+    margin-left: 1300px;
+    margin-bottom: 20px;
+}
+ 
+.text{
+    color: white;
+    font-size: 30px;
+    padding:0 0 5px 10px;
+}
+
+input{
+    height: 30px;
+    margin-left: 10px;
+}
+
+h6{
+   	text-align: center;
+   	color: white;
+}
