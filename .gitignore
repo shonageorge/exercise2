@@ -122,17 +122,17 @@ Desktop.ini
 .eslintcache
 
 
-../LICENSE.txt
-../robots.txt
-../404.html
-../browserconfig.xml
-../favicon.ico
-../humans.txt
-../icons.png
-../site.webmanifest
-../title.png
-../title-wide.png
-../.editorconfig
-../.gitattributes
-../.htaccess
-../doc
+LICENSE.txt
+robots.txt
+404.html
+browserconfig.xml
+favicon.ico
+humans.txt
+icons.png
+site.webmanifest
+title.png
+title-wide.png
+.editorconfig
+.gitattributes
+.htaccess
+doc
