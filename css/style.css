@@ -3,20 +3,37 @@ body{
 }
 
 .logo{
-	width:200px;
+	width:150px;
 	height: 120px;
 	float: left;
-	padding-left:10px;
+	padding-left:0px;
+	position:fixed;
+}
+
+.navigationbar{
+	text-transform: uppercase;
+	background: white;
+	position: fixed;
+	width:1366px;
+	height: 70px;
+	float: right;
+	margin-left:150px;
+	overflow-x:hidden;
 }
 
 header{
 	background: white;
-	/*display: block;
-	position: fixed;*/
+	margin-left: 100px;
 }
 
-.right{
+.alignright{
 	float: right;
+	padding:0 20px;
+	
+}
+
+.alignleft{
+	margin-left:100px;
 }
 
 nav ul{
@@ -33,51 +50,65 @@ nav a{
 	font-family: 'Merriweather', serif;
 }
 
-.hero{
+.herounit{
 	width: 100%;
 	height: 620px;
-	margin-top: -15px;
+	margin-top: 123px;
 }
 
-.gfont{
-	font-family : 'Tangerine', cursive;
+.googlefont{
 	background:#01122B;
-	margin-top: 5px;
-	height: 200px;
-	
+	padding: 5px 0;
+	height: 130px;
 }
 
-.size{
+.style{
+	font-family : 'Tangerine', cursive;
 	font-size: 80px;
 	padding:30px 300px;
 	color: white;
 }
 
-.col1,.col2,.col3{
-	padding-top: 30px;
-	width: 350px;
-	color: black;
-	padding-left: 80px;	
-}
-
-.fashion{
-	padding:20px 0 0 60px;
-}
-	
-.color{
+.backgroundcolor{
 	background: #DCDCDC;
 	margin-top: 5px;
 }
 
-.ftip1,.btip{
+.fashion_grid1{
+
+	padding: 50px 10px 20px ;
+	color: black;
+	width: 350px;  	
+}
+
+.figure_grid1 {
+	margin-left:60px;
+}
+
+.figure_grid1 img{
+
+	height: 350px;
+}
+
+.figurecaption{
+	font-family : 'Tangerine', cursive;
+	font-size: 50px;
+}
+
+.fashion{
+	padding:20px 0 0 150px;
+}
+
+.fashiontip_heading,.beautytip_heading{
+	
 	background: #455166;
 }
 
-.ftip1{
+.fashiontip_heading{
 	margin-top: 550px;
 }
 
-.pfont{
+.fashiontip_content{
 	float:right;
 	width: 240px;
     font-family: 'Playfair Display', serif;
@@ -87,15 +118,15 @@ nav a{
     font-size: 16px;	
 }
 
-.btipcol1 p,h1{
+.beautytip p,h1{
 	color: black;
 }
 	
-.r2,.r3{
+.beautytip2,.beautytip3{
 	padding :20px 20px 0 0;
 }
 
-.tip{
+.beautytip_link{
 	text-decoration: none;
 	color:black;
 	font-size: 15px;
@@ -103,19 +134,19 @@ nav a{
 	font-family: vintage;
 }
 
-.ti{
+.beautytip_mainlink{
 	text-decoration:none;
 	color: black;
 }
 
-.ftip2 img{
+.fashiontip img{
 	width:200px;
 	height: 300px;
 	float: left;
 	padding-right: 20px;
 }
 
-.font{
+.fashiontip_maincontent{
 	font-family: 'Playfair Display', serif;
     font-family: 'Great Vibes', cursive;
     font-family: 'Amiri', serif;
@@ -123,7 +154,7 @@ nav a{
 	font-size: 17px;
 }
 
-.para,.tip{
+.beautytip_content,.beautytip_link{
 	font-family: 'Playfair Display', serif;
     font-family: 'Great Vibes', cursive;
     font-family: 'Amiri', serif;
@@ -131,7 +162,7 @@ nav a{
 	font-size: 17px;
 } 
 
-.para{
+.beautytip_content{
 	width:320px;
 }  
 	
@@ -146,14 +177,14 @@ nav a{
 	margin: 0 50px 100px 0 ;
 }
 
-.itext{
+.icon_headline{
     color: white;
     font-size: 25px;
     margin-left: 1300px;
     margin-bottom: 20px;
 }
  
-.text{
+.subscribe_headline{
     color: white;
     font-size: 30px;
     padding:0 0 5px 10px;
@@ -164,8 +195,9 @@ input{
     margin-left: 10px;
 }
 
-h6{
-   	text-align: center;
+small{
+	margin:0 500px;
+   	padding:5px 500px;
    	color: white;
 }
 
@@ -177,57 +209,88 @@ html,body{
 }
 
 @media (max-width: 1400px){
-	.size{
+	.style{
 		font-size:80px;
 	}
 }
 
 @media (max-width: 1346px){
-	.size{
+	.style{
 		font-size:65px;
 	}
 }
 
 @media (max-width: 1206px){
-	.size{
+	.style{
 		font-size:50px;
 	}
 }
  
 @media (max-width: 1066px){
-	.size{
+	.style{
 		font-size:40px;
 	}
 }
 
 
-@media (max-width: 1567px){
-	.col1,.col2,.col3{
-		padding-left: 90px;
+@media (min-width: 320px){
+	.fashion_grid1{
+	    padding-left: 80px;
+	    width:390px;
 	}
 }
 
-@media (max-width: 1440px){
-	.col1,.col2,.col3{
-		padding-left: 50px;
+@media (min-width: 320px){
+	.figure_grid1{
+	    padding-left: 100px;
+}
+
+@media (min-width: 1021px){
+	.fashion_grid1{
+
+		margin-left: 0px;
+	    padding:0 65px ;
+	    width:180px;
 	}
 }
 
-@media (max-width: 1283px){
-	.col1,.col2,.col3{
-		
-		padding-left: 40px;
+@media (min-width: 1099px){
+	.fashion_grid1{
+
+		margin-left: 0px;
+	    padding:20px 70px 0 ;
+	    width:200px;
 	}
 }
 
 
-/*	.col1,.col2,.col3{
-		padding-left:40px;
+
+@media (min-width: 320px){
+	.fashiontip_heading{
+		margin-top: 1580px;
 	}
 }
 
-@media (min-width: 1440px){
-	.col1,.col2,.col3{
-		padding-left:40px;
+@media (min-width: 1021px){
+	.fashiontip_heading{
+		margin-top: 550px;
 	}
-}*/
+}
+
+@media (min-width: 320px){
+	.fashiontip{
+		padding-left: 10px;
+	}
+	.fashiontip_maincontent{
+		width: 750px;
+		/*font-size: 10px;*/
+	}
+}
+@media (min-width: 1021px){
+	.fashiontip{
+		padding-left: 0px;
+	}
+	.fashiontip_maincontent{
+		width:960px;
+	}
+}
